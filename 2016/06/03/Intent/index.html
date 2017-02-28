@@ -92,7 +92,7 @@ Intent intent = new Intent(FirstActivity.this, Second">
 <meta property="og:site_name" content="九月十七">
 <meta property="og:description" content="显示IntentIntent有多个构造函数重载,其中一个是Intent(Context packageContext, Class&amp;lt;?&amp;gt;cls),第一个参数Context要求提供一个启动活动的上下文,第二个参数Class则是指定想要启动的目标活动,构建出一个Intent的”意图”
 Intent intent = new Intent(FirstActivity.this, Second">
-<meta property="og:updated_time" content="2017-01-22T15:27:02.023Z">
+<meta property="og:updated_time" content="2017-02-28T11:31:16.370Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Intent在Activity之间穿梭">
 <meta name="twitter:description" content="显示IntentIntent有多个构造函数重载,其中一个是Intent(Context packageContext, Class&amp;lt;?&amp;gt;cls),第一个参数Context要求提供一个启动活动的上下文,第二个参数Class则是指定想要启动的目标活动,构建出一个Intent的”意图”
@@ -383,7 +383,8 @@ Intent intent = new Intent(FirstActivity.this, Second">
         <h3 id="显示Intent"><a href="#显示Intent" class="headerlink" title="显示Intent"></a>显示Intent</h3><p>Intent有多个构造函数重载,其中一个是<code>Intent(Context packageContext, Class&lt;?&gt;cls)</code>,第一个参数Context要求提供一个启动活动的上下文,第二个参数Class则是指定想要启动的目标活动,构建出一个Intent的”意图”</p>
 <pre><code>Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
 startActivity(intent);
-</code></pre><h3 id="隐式Intent"><a href="#隐式Intent" class="headerlink" title="隐式Intent"></a>隐式Intent</h3><ol>
+</code></pre><a id="more"></a>
+<h3 id="隐式Intent"><a href="#隐式Intent" class="headerlink" title="隐式Intent"></a>隐式Intent</h3><ol>
 <li>启动程序内部Activity,直接将自己定义的action的字符串传入进去<code>Intent()</code></li>
 </ol>
 <p>需要在<code>AndroidManifest.xml</code>添加如下代码</p>
@@ -481,8 +482,8 @@ startActivity(intent);
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/01/03/南岳之行-i917/" rel="prev" title="南岳之行-i917">
-                南岳之行-i917 <i class="fa fa-chevron-right"></i>
+              <a href="/2016/06/05/Activity启动过程全解析/" rel="prev" title="Activity启动过程">
+                Activity启动过程 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -557,7 +558,7 @@ startActivity(intent);
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">11</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -566,7 +567,7 @@ startActivity(intent);
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
